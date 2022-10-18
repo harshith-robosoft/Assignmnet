@@ -25,3 +25,39 @@
   .home-bar{
     display: flex;
   }
+
+
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-body {
+    flex-basis: 30%;
+    height: 481px;
+  
+    border-radius: 15px;
+    background: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%);
+    box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+    display: flex;
+  }
+  .signContainer {
+    flex-basis: 70%;
+  }
+  
+  .signInContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  <div className="signInContainer">
+  <div className="sign-body">
+    <Logo />
+  </div>
+  {/* <div className="seperate"></div> */}
+  <div className="signContainer">
+    <Signin />
+  </div>
+  
+</div>

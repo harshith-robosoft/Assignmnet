@@ -58,12 +58,12 @@ const HomePage = () => {
       <div className='site-Head'>
                 <img src="/images/facebook.png" alt="icon" className='siteIcon' />
                 <div className='site-Details'>
-                    <p className='site-Name'>afaf</p>
-                    gfss
+                    <p className='site-Name'>Facebook</p>
+                    Copy Link
                 </div>
             </div>
             <div className='site-Link'>
-            www..com
+            www.facebook.com
             </div>
         
       </div>
@@ -74,7 +74,7 @@ const HomePage = () => {
       <div className="site-Container">6</div>
       </div>
       </div>
-hello
+
 
           </div>
         </div>

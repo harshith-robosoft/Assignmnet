@@ -13,8 +13,6 @@ import Signinfull from "./signin/Signinfull";
 import SignupFull from "./signup/SignupFull";
 
 
-
-
 function App() {
   return (
     // <div>
@@ -33,7 +31,7 @@ function App() {
     // </div>
     //  <Success/>
     //  </div>
-    <div className="app">
+    <div>
       <Routes>
         <Route path="/" element={<Signinfull/>} />
         <Route path="/signup" element={<SignupFull />} />
