@@ -1,0 +1,75 @@
+.outerbody {
+  display: flex;
+}
+
+.sideMenu {
+  height: 1024px;
+  width: 120px;
+  background-color: #2892ff;
+  display: flex;
+  flex-direction: column;
+}
+.burger-menu-box {
+  height: 22px;
+  width: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.topMenu-1 {
+  height: 104px;
+  width: 1440px;
+  background-color: red;
+  display: flex;
+}
+.symbol-bar {
+  height: 59.16px;
+  width: 47.47px;
+  opacity: 0.14;
+  transform: scaleY(-1);
+  background-color: #c1deff;
+
+  margin-left: 83px;
+  margin-top: 31px;
+}
+.logo-box {
+  height: 68px;
+  width: 179px;
+  margin-left: 109px;
+  margin-top: 31px;
+  background-color: green;
+  display: flex;
+}
+.logo-size {
+  height: 59.16px;
+  width: 47.47px;
+}
+.logo-text {
+  height: 54px;
+  width: 109px;
+  color: #0e85ff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin-left: 13px;
+  text-align: center;
+}
+.logo-l {
+  height: 35px;
+  width: 60px;
+  border-radius: 4px;
+  box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.03);
+  margin-left: 812px;
+  margin-top: 48px;
+}
+
+.logo-r {
+  height: 35px;
+  width: 60px;
+  border-radius: 4px;
+  /* background-color: #ffffff; */
+  box-shadow: 0 8px 18px 10px rgba(0, 0, 0, 0.02);
+  margin-left: 20px;
+  margin-top: 48px;
+}

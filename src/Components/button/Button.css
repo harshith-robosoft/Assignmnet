@@ -1,0 +1,17 @@
+.signinbtn {
+    margin-top: 41px;
+    height: 44px;
+    width: 130px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+  }
+  .signin-btn-txt {
+    height: 24px;
+    width: 75px;
+    color: #0e85ff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+  }
