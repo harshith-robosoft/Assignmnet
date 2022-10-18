@@ -7,10 +7,17 @@ import Signin from "./signin/Signin";
 import Signup from "./signup/Signup";
 import Success from "./Components/success/Success";
 import HomePage from "./Pages/HomePage";
+import Logo from "./Components/logo/logo";
+import { Routes, Route } from "react-router-dom";
+import Signinfull from "./signin/Signinfull";
+import SignupFull from "./signup/SignupFull";
+
+
+
 
 function App() {
   return (
-    // <div classname="sign-body">
+    // <div>
     // <div className="loginBackground">
     //   <div className="loginLeft">
     //     <img className="logo" src="/images/logo.png" alt="picture" />
@@ -22,13 +29,17 @@ function App() {
 
     //   <Signin/>
     //   {/* <Signup/> */}
-     
 
     // </div>
-    //  <Success/> 
+    //  <Success/>
     //  </div>
-    <div>
-    <HomePage/>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Signinfull/>} />
+        <Route path="/signup" element={<SignupFull />} />
+        <Route path="/Homepage" element={<HomePage/>} />
+      </Routes>
+
     </div>
   );
 }

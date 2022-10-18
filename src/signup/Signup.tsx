@@ -2,9 +2,12 @@ import React from 'react'
 import '../App.css'
 import Input from '../Components/input/Input'
 import Button from '../Components/button/Button'
+import Logo from '../Components/logo/logo'
 const Signup = () => {
   return (
     <div>
+      
+      <div className='loginBackground-part-r' >
        <div className="loginRight">
         <span className="loginhead">SIGN UP</span>
         <div className="mobile">
@@ -20,6 +23,7 @@ const Signup = () => {
           </div>
         </div>
           <Button value="SIGN UP" />
+      </div>
       </div>
     </div>
   )

@@ -2,18 +2,16 @@ import React from 'react'
 import '../App.css'
 import Input from '../Components/input/Input'
 import Button from '../Components/button/Button'
+import { Link } from "react-router-dom";
+import Logo from '../Components/logo/logo';
 
 const Signin = () => {
   return (
-    <div>
+    <div className='sign-body'>
+   <div className='loginBackground-part-r'>
       <div className="loginRight">
         <span className="loginhead">SIGN IN TO YOUR ACCOUNT</span>
         <div className="mobile">
-          {/* <input
-            className="input-box "
-            type="text"
-            placeholder="Mobile Number"
-          /> */}
           <Input placeholder="Mobile Number"/>
         </div>
         <div className="mpin">
@@ -29,8 +27,9 @@ const Signin = () => {
             <text className="signin-btn-txt">SIGN IN</text>
           </button> */}
           <Button value="SIGN IN" />
-          <span className="dont-account">Don’t have a Account? SIGNUP</span>
+          <span className="dont-account">Don’t have a Account? <Link to="/signup">SIGNUP</Link></span>
         </div>
+      </div>
       </div>
     </div>
   )
