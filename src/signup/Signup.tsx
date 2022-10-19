@@ -67,6 +67,7 @@ const Signup = () => {
       localStorage.setItem("users", JSON.stringify(previousData));
     } else if ((previousData.length = 0 && mobileNo)) {
     }
+    
   };
   return (
     <div>
@@ -113,7 +114,7 @@ const Signup = () => {
             </div>
             {/* <Button value="SIGN UP" /> */}
             <div className="signinbtn">
-              <input type="submit" value="SIGN UP" className="signup-btn-txt" />
+              <input type="submit" value="SIGN UP" className="signup-btn-txt"  />
             </div>
           </form>
         </div>

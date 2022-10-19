@@ -35,7 +35,7 @@ const HomePage = () => {
                 <div style={{ display: "flex" }}>
                   <input className="search" placeholder="Search"></input>
                   <div className="search-icon-div">
-                  <Link to="/Homepagedata">
+                  <Link to="/signup">
                     <img src="images/search.png" alt="pic" />
                     </Link>
                   </div>
@@ -52,11 +52,11 @@ const HomePage = () => {
               </div>
             </div>
            
-            <div className="adds-site">
+            {/* <div className="adds-site">
               <p className="please-click-on-the">
                 Please Click on the “+” symbol to add sites
               </p>
-            </div>
+            </div> */}
 
 
 
@@ -67,10 +67,10 @@ const HomePage = () => {
    ******************
     */}
 
-            {/* <div className="social">
+            <div className="social">
               <p className="social-media">Social Media</p>
 
-              <div className="social-num">7</div>
+              <div className="social-num">6</div>
               <div className="arrow-img">
                 <img src="/images/Path Copy.png" alt="" />
               </div>
@@ -79,17 +79,18 @@ const HomePage = () => {
             <div className="grid-whole-shell">
               <div className="grid-Flex">
                 <SiteContainer
-                  appIcon="facebook"
+                  appIcon="Facebook"
                   image="/images/facebook.png"
                 />
-                <SiteContainer appIcon="youtube" />
-                <SiteContainer appIcon="pinterest" />
-                <SiteContainer appIcon="gmail" />
-                <SiteContainer appIcon="linkedin" />
-                <SiteContainer />
+                <SiteContainer appIcon="Youtube" image="/images/YouTube.png" />
+                <SiteContainer appIcon="Twitter" image="/images/Twitter.png"/>
+                <SiteContainer appIcon="Pinterest" image="/images/Pinterest.png" />
+                <SiteContainer appIcon="Gmail" image="/images/Gmail.png" />
+                <SiteContainer appIcon="Linkedin" image="/images/LinkdIn.png" />
+                
                
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

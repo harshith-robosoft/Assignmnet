@@ -50,6 +50,9 @@ const Signin = () => {
           window.location.reload();
         }
       }
+      // else {
+      //   alert("Please enter the right details.");
+      // }
     }
   };
 

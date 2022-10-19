@@ -11,6 +11,7 @@ import Logo from "./Components/logo/logo";
 import { Routes, Route } from "react-router-dom";
 import Signinfull from "./signin/Signinfull";
 import SignupFull from "./signup/SignupFull";
+import HomePgdata from "./Pages/HomePgdata";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/" element={<Signinfull/>} />
         <Route path="/signup" element={<SignupFull />} />
         <Route path="/Homepage" element={<HomePage/>} />
+        <Route path="/Homepagedata" element={<HomePgdata/>} />
       </Routes>
     </div>
   );
