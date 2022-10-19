@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "../App.css";
-import Input from "../Components/input/Input";
-import Button from "../Components/button/Button";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../Components/logo/logo";
 

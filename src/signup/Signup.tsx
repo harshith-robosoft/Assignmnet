@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
-import Input from "../Components/input/Input";
-import Button from "../Components/button/Button";
-import Logo from "../Components/logo/logo";
 import { useNavigate } from "react-router-dom";
+
 const Signup = () => {
   type usersType = { mobileNo: number; mPin: number };
   const navigate = useNavigate();
@@ -67,7 +65,6 @@ const Signup = () => {
       localStorage.setItem("users", JSON.stringify(previousData));
     } else if ((previousData.length = 0 && mobileNo)) {
     }
-    
   };
   return (
     <div>
@@ -114,7 +111,7 @@ const Signup = () => {
             </div>
             {/* <Button value="SIGN UP" /> */}
             <div className="signinbtn">
-              <input type="submit" value="SIGN UP" className="signup-btn-txt"  />
+              <input type="submit" value="SIGN UP" className="signup-btn-txt" />
             </div>
           </form>
         </div>

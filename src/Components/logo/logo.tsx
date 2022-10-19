@@ -1,5 +1,4 @@
-import React from "react";
-import Signin from "../../signin/Signin";
+
 import "../../App.css";
 
 const Logo = () => {
@@ -11,7 +10,6 @@ const Logo = () => {
           Protect & Manage every password in your business
         </p>
       </div>
-      {/* <Success/>  */}
     </div>
   );
 };

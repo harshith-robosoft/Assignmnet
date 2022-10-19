@@ -9,7 +9,6 @@ const SiteContainer = (props:any) => {
             <div className='site-Head'>
                 {/* <img src={`/appIcons/${props.appIcon}Icon.png`} alt="icon" className='site-Icon' /> */}
                 <img
-                    //   src="/images/facebook.png"
                     src={props.image}
                       alt="icon"
                       className="site-Icon"

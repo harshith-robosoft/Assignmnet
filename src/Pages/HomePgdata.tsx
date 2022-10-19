@@ -3,20 +3,17 @@ import Header from "../Components/Header/Header";
 import SideBar from "../Components/sidebar/SideBar";
 import "./Pages.css";
 import "./media.css";
-import "./moadal1.css"
+import "./moadal1.css";
 import SiteContainer from "../Components/siteContainer/SiteContainer";
 import Modal from "../Components/Modal/Modal";
 import { Link } from "react-router-dom";
-const HomePage = () => {
-    // const [modal, setModal] = useState(false)
-    // const toggleModal =()=>{
-    //   setModal(!modal)
 
-    const [isShown, setIsShown] = useState(false);
-    const handleClick = (event: any) => {
-        setIsShown((current: any) => !current);
-      };
-   
+const HomePage = () => {
+  const [isShown, setIsShown] = useState(false);
+  const handleClick = (event: any) => {
+    setIsShown((current: any) => !current);
+  };
+
   return (
     <div>
       <div className="outerbody">
@@ -35,8 +32,8 @@ const HomePage = () => {
                 <div style={{ display: "flex" }}>
                   <input className="search" placeholder="Search"></input>
                   <div className="search-icon-div">
-                  <Link to="/signup">
-                    <img src="images/search.png" alt="pic" />
+                    <Link to="/signup">
+                      <img src="images/search.png" alt="pic" />
                     </Link>
                   </div>
                 </div>
@@ -51,15 +48,6 @@ const HomePage = () => {
                 />
               </div>
             </div>
-           
-            {/* <div className="adds-site">
-              <p className="please-click-on-the">
-                Please Click on the “+” symbol to add sites
-              </p>
-            </div> */}
-
-
-
 
             {/* 
     ***************
@@ -83,12 +71,13 @@ const HomePage = () => {
                   image="/images/facebook.png"
                 />
                 <SiteContainer appIcon="Youtube" image="/images/YouTube.png" />
-                <SiteContainer appIcon="Twitter" image="/images/Twitter.png"/>
-                <SiteContainer appIcon="Pinterest" image="/images/Pinterest.png" />
+                <SiteContainer appIcon="Twitter" image="/images/Twitter.png" />
+                <SiteContainer
+                  appIcon="Pinterest"
+                  image="/images/Pinterest.png"
+                />
                 <SiteContainer appIcon="Gmail" image="/images/Gmail.png" />
                 <SiteContainer appIcon="Linkedin" image="/images/LinkdIn.png" />
-                
-               
               </div>
             </div>
           </div>
@@ -97,6 +86,5 @@ const HomePage = () => {
     </div>
   );
 };
-
 
 export default HomePage;

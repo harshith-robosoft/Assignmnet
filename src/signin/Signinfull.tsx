@@ -8,12 +8,9 @@ const SigninFull = () => {
     <div className="signInContainer">
       <div className="sign-body">
         <Logo />
-     
-      <div className="seperate"></div>
-  
+        <div className="seperate"></div>
         <Signin />
-      
-    </div>
+      </div>
     </div>
   );
 };

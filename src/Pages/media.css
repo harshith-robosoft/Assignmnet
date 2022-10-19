@@ -32,13 +32,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-/* .site-Container{
-    height: 115px;
-    width: 363px;
-    border-radius: 14px;
-    background-color: white;
-    box-shadow: 0 8px 18px 10px rgba(0,0,0,0.02);
-} */
 .site-Container{
     height: 115px;
     width: 363px;

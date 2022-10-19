@@ -7,11 +7,8 @@ import "./moadal1.css"
 import SiteContainer from "../Components/siteContainer/SiteContainer";
 import Modal from "../Components/Modal/Modal";
 import { Link } from "react-router-dom";
-const HomePage = () => {
-    // const [modal, setModal] = useState(false)
-    // const toggleModal =()=>{
-    //   setModal(!modal)
 
+const HomePage = () => {
     const [isShown, setIsShown] = useState(false);
     const handleClick = (event: any) => {
         setIsShown((current: any) => !current);
@@ -57,39 +54,6 @@ const HomePage = () => {
                 Please Click on the “+” symbol to add sites
               </p>
             </div>
-
-
-
-
-            {/* 
-    ***************
-    using media.css from here 
-   ******************
-    */}
-
-            {/* <div className="social">
-              <p className="social-media">Social Media</p>
-
-              <div className="social-num">7</div>
-              <div className="arrow-img">
-                <img src="/images/Path Copy.png" alt="" />
-              </div>
-            </div>
-
-            <div className="grid-whole-shell">
-              <div className="grid-Flex">
-                <SiteContainer
-                  appIcon="facebook"
-                  image="/images/facebook.png"
-                />
-                <SiteContainer appIcon="youtube" />
-                <SiteContainer appIcon="pinterest" />
-                <SiteContainer appIcon="gmail" />
-                <SiteContainer appIcon="linkedin" />
-                <SiteContainer />
-               
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
