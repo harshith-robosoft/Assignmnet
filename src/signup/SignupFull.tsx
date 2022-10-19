@@ -5,18 +5,18 @@ import Signup from './Signup'
 
 const SignupFull = () => {
   return (
-    <div>
+    
       <div className="signInContainer">
       <div className="sign-body">
         <Logo />
-      </div>
-      {/* <div className="seperate"></div> */}
-      <div className="signContainer">
+     
+      <div className="seperate"></div>
+
         <Signup />
-      </div>
-      
+    
+        </div>
     </div>
-    </div>
+   
   )
 }
 

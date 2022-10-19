@@ -37,7 +37,6 @@ function App() {
         <Route path="/signup" element={<SignupFull />} />
         <Route path="/Homepage" element={<HomePage/>} />
       </Routes>
-
     </div>
   );
 }

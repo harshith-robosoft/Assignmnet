@@ -64,7 +64,6 @@
   height: 481px;
   width: 334px;
   /* background: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%); */
-  
   display: flex;
 }
 .loginBackground-part-r {
@@ -182,4 +181,68 @@ input:focus {
   line-height: 17px;
   margin-left: 23px;
   margin-top: 13px;
+}
+.input-box {
+  height: 22px;
+  width: 260px;
+  margin-top: 17px;
+  margin-left: 22px;
+  color: #787e8c;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.signinbtn {
+  margin-top: 41px;
+  height: 44px;
+  width: 130px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+}
+.signup-btn-txt {
+  height: 24px;
+  width: 90px;
+  color: #0e85ff;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  line-height: 24px;
+  margin-left: 21px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 875px) {
+
+  .signInContainer {
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+  }
+
+
+
+  .seperate {
+
+      display: none;
+
+  }
+
+
+
+  .leftlogin {
+
+      border-bottom: 2px solid white;
+
+  }
+
 }

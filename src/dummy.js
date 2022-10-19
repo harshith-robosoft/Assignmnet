@@ -61,3 +61,44 @@
   </div>
   
 </div>
+
+
+
+
+
+       {/* {
+                modal &&
+                <div className='overlaymodal'>
+                  <div className="modal">
+                    <div onClick={toggleModal} className="overlay"></div>
+                    <div className="modal-content">
+                      <h2>Add Site</h2>
+                        <div className="url-box">
+                            <p className="modal-text" >URL</p>
+                         <div className="url-input" >
+                             <input type="text"className="url-input" />
+                         </div>
+                        </div>
+                        
+                        <div className="site-sect-ibox" >
+                        <div className="url-box">
+                            <p className="modal-text" >URL</p>
+                         <div className="site-input" >
+                             <input type="text"className="urlinput" />
+                         </div>
+                        </div>
+                        <div className="url-box">
+                            <p className="modal-text" >URL</p>
+                         <div className="site-input" >
+                             <input type="text"className="urlinput" />
+                         </div>
+                        </div>
+                        </div>
+
+                      <button className="close-modal" onClick={toggleModal}>
+                        CLOSE
+                      </button>
+                    </div>
+                  </div>
+                  </div>
+              } */}
