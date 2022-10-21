@@ -203,17 +203,28 @@ input:focus {
 }
 
 @media screen and (max-width: 500px) {
+  .seperate{
+    display: none;
+  }
   .sign-body {
-    height: 833px;
+    height: 100vh;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .outerbody{
+  .loginRight{
+    margin-top: 32px;
+  }
+ 
+  .signInContainer {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 98vh;
+  }
+  .loginBackground-part-l{
+    height: 520px;
   }
  
 }
-

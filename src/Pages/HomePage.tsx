@@ -14,7 +14,7 @@ const HomePage = () => {
         setIsShown((current: any) => !current);
       };
    
-  return (
+  return ( 
     <div>
       <div className="outerbody">
         <SideBar />

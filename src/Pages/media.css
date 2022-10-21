@@ -105,3 +105,20 @@
     line-height: 17px;
     margin-top: 3px;
 }
+
+@media screen and (max-width: 500px) {
+
+    .social {
+        margin-left: 10px;
+    }
+    .grid-whole-shell{
+        margin-top:0;
+        margin-left: 0;
+        margin-right:0;
+    }
+
+    .grid-Flex{
+        display: contents;
+    }
+   
+}

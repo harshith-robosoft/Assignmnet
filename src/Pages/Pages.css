@@ -20,8 +20,10 @@ body {
 }
 .topMenu-1 {
   height: 104px;
-  width: 1440px;
+  width: 80%;
   display: flex;
+  justify-content: space-between;
+
 }
 .symbol-bar {
   height: 59.16px;
@@ -29,7 +31,6 @@ body {
   opacity: 0.14;
   transform: scaleY(-1);
   background-color: #c1deff;
-
   margin-left: 83px;
   margin-top: 31px;
 }
@@ -41,14 +42,13 @@ body {
 .logo-box {
   height: 68px;
   width: 179px;
-  margin-left: 109px;
-  display: flex;
+  
 }
 .logo-size {
   height: 59.16px;
   width: 47.47px;
 }
-.logo-text {
+/* .logo-text {
   height: 54px;
   width: 109px;
   color: #0e85ff;
@@ -59,35 +59,43 @@ body {
   line-height: 27px;
   margin-left: 13px;
   text-align: center;
-}
+} */
 .logo-l {
-  height: 35px;
-  width: 60px;
-  border-radius: 4px;
-  color: #0e85ff;
-  margin-left: 812px;
-  margin-top: 17px;
-  display: flex;
+ 
+  /* border-radius: 4px; */
+  /* color: #0e85ff; */
+  /* margin-left: 812px;
+  margin-top: 17px; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
-
+.topMenu-1-outer{
+    display: flex;
+    justify-content: center;
+}
 .logo-r {
-  height: 35px;
-  width: 60px;
-  border-radius: 4px;
-  margin-left: 20px;
-  margin-top: 17px;
-  display: flex;
+
+  /* border-radius: 4px; */
+  /* margin-left: 20px;
+  margin-top: 17px; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
-.profile-img {
+/* .profile-img {
   justify-content: center;
 }
 .sync-img {
   justify-content: center;
+} */
+.logo-box-r{
+    height: 30%;
+    width: 20%;
+    display: flex;
+  justify-content:space-between;
+
 }
 .r-btm-mainpage {
   height: 891px;
@@ -177,4 +185,66 @@ input:focus {
   border-radius: 3px;
   background-color: #ffa043;
   margin-top: 40px;
+}
+.pass-man{
+    display: none;
+}
+.log-out{
+    height: 106px;
+  width: 203px;
+  background-color: rebeccapurple;
+  position:absolute;
+  margin-top: 0px;
+margin-left: 1px;
+  /* left: 0px;
+  top: 0px; */
+  z-index: 1;
+
+}
+@media screen and (max-width: 500px) {
+
+    .outerbody{
+        display: flex;
+        flex-direction: column;
+        
+        margin: 0;
+      }
+      .sideMenu {
+        height: 100px;
+        min-width: 380px;
+        display: flex;
+        position: absolute;
+    }
+.topMenu-1{
+ /* height: 80px; */
+ width:300px;
+ position: relative;
+}
+.logo-box{
+    display: none;
+  
+}
+.logo-l{
+    margin-left: 40px;
+    
+}
+.r-mainpage{
+    margin-top: 10px;
+}
+.sites{
+    margin-left: 8px;
+}
+.hme-bar {
+
+display: none;
+
+}
+.pass-man{
+    height: 32px;
+    width: 87px;
+    display: block;
+
+}
+
+
 }
