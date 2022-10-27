@@ -22,6 +22,19 @@ const HomePage = () => {
           <Header />
           <Modal isShown={isShown} handleClick={handleClick} />
           <div className="r-btm-mainpage">
+
+            <div className="topMenu-2mob">
+            <h1 className="sitesmob">Sites</h1>
+            <div className="socialmob">
+              <p className="social-media">Social Media</p>
+
+              <div className="social-num">6</div>
+              <div className="arrow-img">
+                <img src="/images/Path Copy.png" alt="" />
+              </div>
+            </div>
+            </div>
+
             <div className="topMenu-2">
               <h1 className="sites">Sites</h1>
 

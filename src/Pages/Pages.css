@@ -44,10 +44,10 @@ body {
   width: 179px;
   
 }
-.logo-size {
+/* .logo-size {
   height: 59.16px;
   width: 47.47px;
-}
+} */
 /* .logo-text {
   height: 54px;
   width: 109px;
@@ -201,7 +201,40 @@ margin-left: 1px;
   z-index: 1;
 
 }
+.logo-box-rmob{
+  display: none;
+  }
+  .topMenu-2mob{
+    display: none;
+  }
+.sideMenu{
+  display: none;
+}
+.sitesmob {
+display: none;
+}
+
+
 @media screen and (max-width: 500px) {
+body{
+  /* height: 620px;
+  width: 360px; */
+
+
+}
+.sitesmob {
+  height: 41px;
+  width: 69px;
+  color: #3c4857;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+  border-bottom: 5px solid #ffa043;
+  /* margin-left: 91px; */
+  /* margin-top: 38px; */
+  display: block;
+}
 
     .outerbody{
         display: flex;
@@ -216,16 +249,35 @@ margin-left: 1px;
         position: absolute;
     }
 .topMenu-1{
- /* height: 80px; */
+ /* height: 80px;
  width:300px;
  position: relative;
+ display: flex;
+ justify-content: none; */
+ display: none;
+}
+.topMenu-1-outer{
+  display: flex;
+  align-items: flex-start;
+  
 }
 .logo-box{
     display: none;
-  
+ 
+}
+.logo-box-r{
+  /* display: flex;
+  width: min-content; */
+  display: none;
+}
+.burger-menu-box{
+  height: 22px;
+  width: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 .logo-l{
-    margin-left: 40px;
+    /* margin-left: 40px; */
     
 }
 .r-mainpage{
@@ -240,11 +292,30 @@ display: none;
 
 }
 .pass-man{
-    height: 32px;
-    width: 87px;
+    /* height: 32px;
+    width: 87px; */
+    /* display: block; */
     display: block;
-
+    margin: 20px 0px 20px 30px;
 }
 
+.logo-box-rmob{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
+  /* background-color: rgb(146, 137, 137); */
+  margin-left: 0;
+  position: relative;
+}
+
+.topMenu-2{
+  display: none;
+}
+/* .add-btn{
+  display: none;
+} */
+}
+.topMenu-2mob{
+display: flex;
 }

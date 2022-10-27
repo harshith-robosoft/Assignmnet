@@ -105,11 +105,18 @@
     line-height: 17px;
     margin-top: 3px;
 }
+.socialmob{
+    display: none;
+}
 
 @media screen and (max-width: 500px) {
 
     .social {
-        margin-left: 10px;
+        display: none;
+    }
+    .socialmob{
+        margin-left: 25px;
+        display: flex;
     }
     .grid-whole-shell{
         margin-top:0;
