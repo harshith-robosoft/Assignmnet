@@ -1,4 +1,3 @@
-
 .sign-body {
   height: 481px;
   width: 839px;
@@ -6,7 +5,6 @@
   background: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%);
   display: flex;
 }
-
 
 .signInContainer {
   display: flex;
@@ -141,10 +139,7 @@
   margin-top: 58px;
 }
 
-.dont-account a {
-  text-decoration: none;
-  color: white;
-}
+
 .success {
   height: 44px;
   width: 513px;
@@ -201,9 +196,124 @@ input:focus {
   margin-left: 21px;
   margin-top: 10px;
 }
+.dropdown {
+  position: relative;
 
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+
+  position: absolute;
+
+  right: 0;
+
+  background-color: #f9f9f9;
+
+  min-width: 260px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+  z-index: 1;
+
+  padding: 0 10px;
+}
+
+.dropdown-content .change-pass {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.dropdown-content .sign-out {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+
+.dont-account a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-content .change-pass p {
+  font-size: 15px;
+}
+.dropdown-content .change-pass img {
+  margin-right: 5px;
+
+  width: 20px;
+
+  height: 20px;
+}
+
+.dropdown-content .sign-out img {
+  margin-right: 2px;
+
+  width: 20px;
+
+  height: 20px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logintop-mob{
+  display: none;
+}
 @media screen and (max-width: 500px) {
-  .seperate{
+
+.sign-log-mob{
+  height: 39px;
+  width: 258px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.si-in-mob{
+  color: white;
+  height: 27px;
+  width: 83px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  /* border-bottom: 5px solid #FFA222; */
+}
+.logintop-mob{
+  margin-left: 30px;
+  flex-direction: column;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.si-in{
+  display: flex;
+  flex-direction: column;
+}
+.si-up{
+  display: flex;
+  flex-direction: column;
+}
+.sign-tabcol{
+  height: 4px;
+  width: 81px;
+  border-radius: 3.5px;
+  background-color: #FFA222;
+  margin-top: 8px;
+  
+}
+
+
+  .seperate {
     display: none;
   }
   .sign-body {
@@ -213,18 +323,28 @@ input:focus {
     flex-direction: column;
     align-items: center;
   }
-  .loginRight{
-    margin-top: 32px;
+  .loginRight {
+    margin-top: 10px;
+    height: 410px;
   }
- 
+.loginhead{
+  display: none;
+}
   .signInContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 98vh;
   }
-  .loginBackground-part-l{
+  .loginBackground-part-l {
     height: 520px;
   }
- 
+  .si-up a,.si-in a {
+    text-decoration: none;
+    color: white;
+  }
+  .loginLeft{
+    display: none;
+  }
+  
 }
