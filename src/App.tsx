@@ -13,8 +13,9 @@ import Signinfull from "./signin/Signinfull";
 import SignupFull from "./signup/SignupFull";
 import HomePgdata from "./Pages/HomePgdata";
 
-
 function App() {
+  const auth = localStorage.getItem("auth");
+  console.log(auth);
   return (
     // <div>
     // <div className="loginBackground">
@@ -34,10 +35,14 @@ function App() {
     //  </div>
     <div>
       <Routes>
-        <Route path="/" element={<Signinfull/>} />
+        <Route path="/" element={<Signinfull />} />
+        <Route path="*" element={<Signinfull />} />
         <Route path="/signup" element={<SignupFull />} />
-        <Route path="/Homepage" element={<HomePage/>} />
-        <Route path="/Homepagedata" element={<HomePgdata/>} />
+        {/* <Route path="/Homepage" element={<HomePage/>} /> */}
+        <Route
+          path="/Homepagedata"
+          element={auth == "true" ? <HomePgdata /> : <Signinfull />}
+        />
       </Routes>
     </div>
   );
